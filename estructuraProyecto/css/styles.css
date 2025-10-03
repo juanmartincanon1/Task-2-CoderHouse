@@ -35,7 +35,15 @@ html{
     z-index: 1;
 }
 
+#menunegro li a{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
 
+#margendearriba{
+    margin-top: 120px;
+}
 /* body{ */
     /* background-image: url(assets/main.jpg);
     background-size: cover; */
@@ -278,7 +286,7 @@ html{
 }
 
 .contsub {
-    background-image: url(assets/main.jpg);
+    background-image: url("../assets/main.jpg");
     width: auto;
     height: 400px;
   display: flex;
@@ -348,3 +356,4 @@ footer{
     margin: 0px 20px;
     margin-top: 200px;
 }
+
